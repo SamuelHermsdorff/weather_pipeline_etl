@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables e credenciais
+.env
+.env.local
+.env.*.local
+config/.env
+config/*.env
+*.key
+*.pem
+credentials.json
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Airflow
+airflow.db
+airflow.cfg
+webserver_config.py
+standalone_admin_password.txt
+
+# Dados temporários
+data/temp/
+data/*.csv
+data/*.xlsx
+*.tmp
+
+# Backups
+*.bak
+*.backup
+
+# Docker
+.docker/
+docker-compose.override.yml
+.dockerignore
+postgres-db-volume/
